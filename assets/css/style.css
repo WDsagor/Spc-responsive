@@ -1,0 +1,761 @@
+@font-face{
+    font-family:'FjallaOne';
+    src: url(../fonts/FjallaOne-Regular.ttf);
+    src: url(../fonts/FjallaOne-Regular.ttf), (truetype);
+}
+a .chat{
+    position: fixed;
+    font-size: 40px;
+    top: 50%;
+    right: 0;
+    color: #e53528;
+    padding: 10px;
+     background-color: rgba(0,0,0,0.7);
+    z-index: 99;
+}
+.common-area{
+    width: 1320px;
+    margin: auto;
+}
+/*-------------header area start-----------------*/
+header{
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.menu{
+    padding: 0px;
+}
+.menu ul li a:hover{
+    color: #e53528;
+    transition: 1s;
+}
+.pading{
+    padding: 30px 0;
+    
+}
+.logo{
+    padding-left: 10%;
+}
+.menu ul li a{
+    font-family:'FjallaOne';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 45px;
+}
+
+.top-content{
+    margin-right: 10%;
+}
+.top-content h1{
+    font-family:'FjallaOne';
+    font-size: 40px;
+    color: #fff;
+    line-height: 35px;
+    text-align: end;
+}
+.top-content p{
+    font-family:'Catamaran';
+    font-size: 15px;
+    color: #fff;
+    line-height: 10px;
+    text-align: end;
+}
+/*-------------banner area start-----------------*/
+.banner{
+    background-image: url(../../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 980px;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+.banner-overly{
+    background: rgba(0,0,0,0.35);
+    height: 100%;
+    width: 100%;
+    
+}
+.banner-overly .over-content p{
+    font-family:'FjallaOne';
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 35% 0% 18.5%;
+}
+.banner-bottom-information{
+    margin: auto;
+}
+.banner-overly .banner-bottom-content{
+    background: rgba(0,0,0,0.5);
+    margin: auto;
+    width: 100%;
+}
+.banner-overly .banner-bottom-content p{
+    font-family:'FjallaOne';
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+.banner-overly .banner-bottom-content p i{
+    background: #e53528;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 50%;
+}
+/*-------------banner area start-----------------*/
+
+/*-------------offer area start-----------------*/
+.offer .border-for,
+.recent-projects .border-for{
+    height: 80px;
+    width: 700px;
+    margin: auto;
+    border-bottom: 1px solid #c84040;
+}
+.offer .offer-info h3, 
+.recent-projects .offer-info h3{ 
+    margin-top: -20px;
+    text-align: center;
+}
+.offer .offer-info h3 span,
+.recent-projects .offer-info h3 span{
+    background: #fff;
+    padding: 0 50px;
+    font-family:'FjallaOne';
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #303131;
+   
+}
+.offer .offer-info{
+    margin-bottom: 50px;
+}
+.offer .offer-info p{ 
+    text-align: center;
+    font-family:'FjallaOne';
+    font-size: 25px;
+    color: #8b8b8b;
+    text-transform: uppercase;
+}
+.offer .offer-info p span{
+    text-align: center;
+    font-family:'Catamaran';
+    color: #313131;
+    font-size: 15px;
+    text-transform: none;
+}
+.content-img{
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.overly{
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    height: 19%;
+    width: 96%;
+    background: rgba(0,0,0,0.4);
+}
+.content-img .overly-content{
+    text-align: end;
+    padding: 20px 40px;
+    color: #fff;
+}
+.content-img .overly-content h2{
+    text-align: left;
+    font-size: 28px;
+    font-family:'FjallaOne';
+    text-transform: uppercase;
+}
+
+.overly-content .hide-content p{
+    text-align: left;
+}
+.overly-content .hide-content a{
+    font-size: 20px;
+    font-family:'FjallaOne';
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+.content-img:hover .overly{
+     background: rgba(250,0,0,0.4);
+    bottom: 0;
+    left: 12px;
+    height: 60%;
+    width: 96%;
+    transition: 1s;
+}
+/*--------recent-projects start------------*/
+.project-details{
+    padding: 30px 20px;
+}
+.recent-projects .offer-info{
+    margin-bottom: 50px;
+}
+.project-details .only-border{
+   height: 2px;
+    width: 100px;
+    border-bottom: 2px solid red;
+}
+.project-details h3{
+    font-size: 28px;
+    font-family:'FjallaOne';
+    text-transform: uppercase;
+    color: #303131;
+}
+.project-details p{
+    padding: 20px 20px 0 0;
+    font-size: 15px;
+}
+.touch-today-content .see-all-project,
+.common-area .see-all-project{
+    text-align: center;
+    margin: 20px 0 70px;
+}
+.touch-today-content .see-all-project a,
+.common-area .see-all-project a{
+    text-align: center;
+    background: #e53528;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family:'FjallaOne';
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+/*--------recent-projects end------------*/
+
+/*-------- touch today start------------*/
+.touch-today{
+    width: 100%;
+    height: 400px;
+    background-image: url(../../img/bottom-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.touch-today-overlay{
+    background:rgba(93, 94, 94,0.8);
+    height: 100%;
+    width: 100%;
+}
+.touch-today-area{
+    padding-top: 80px;
+    margin: auto;
+    width: 900px;
+    text-align: center;
+}
+.touch-today-content .only-border{
+    margin: auto;
+    height: 10px;
+    width: 100px;
+    border-bottom: 2px solid red;
+}
+.touch-today-content .see-all-project{
+    padding: 50px;
+}
+.touch-today-content h1{
+    font-size: 40px;
+    font-family:'FjallaOne';
+    text-transform: uppercase;
+    color: #fff;
+}
+.touch-today-content p{
+    font-size: 18px;
+    padding-top: 20px;
+    color: #fff;
+}
+/*-------- touch today end------------*/
+
+/*--------footer start------------*/
+footer{
+    width: 100%;
+    background: #2b2b2a;
+}
+.copyright-company p{
+    font-size: 13px;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 50px;
+}
+.copyright-company p .img-fluid{
+    padding-right: 10px;
+}
+footer .bottom-menu ul{
+    margin: 0px;
+}
+footer .bottom-menu ul li{
+    display: inline-block;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+footer .bottom-menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'FjallaOne';
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 50px;
+}
+.developer p{
+    text-align: end;
+    line-height: 50px;
+    font-size: 13px;
+    color: #fff;
+}
+.developer p img{
+    padding-left: 10px;
+}
+/*--------footer end------------*/
+@media(max-width:1340px){
+    .common-area{
+    width: 1170px;
+    margin: auto;
+    }
+    .banner-overly .over-content p{
+        padding: 35% 0% 25.3%;
+    }
+}
+@media(max-width:1200px){
+    .common-area {
+    width: 1100px;
+    margin: auto;
+    }
+    .menu {
+    padding-top: 12px;
+}
+     header .menu ul li a{
+        font-size: 18px;
+         line-height: 0;
+    }
+    .banner-overly .over-content p{
+        padding: 35% 0% 29.4%;
+        font-size: 50px;
+    }
+    .banner-overly .banner-bottom-content p{
+        font-size: 24px;
+    }
+    .overly{
+        width: 100%;
+        left: 0;
+    }
+    .content-img:hover .overly{
+        width: 100%;
+        left: 0;
+    }
+    footer .bottom-menu ul li a{
+        font-size: 15px;
+    }
+}
+@media(max-width:1150px){
+    .common-area{
+        width: 1010px;
+    }
+    .copyright-company p{
+        line-height: 30px;
+        font-size: 10px;
+    }
+    .banner-overly .over-content p{
+        padding: 35% 0% 36.8%;
+        font-size: 45px;
+    }
+    .developer p{
+        line-height: 30px;
+    }
+    footer .bottom-menu ul li a{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1050px){
+    header .menu ul li a{
+        font-size: 14px;
+        
+    }
+    .top-content h1{
+        font-size: 32px;
+    }
+    .common-area {
+    width: 980px;
+    margin: auto;
+    }
+    .banner-overly .banner-bottom-content p{
+        font-size: 20px;
+    }
+    .banner{
+        height: 790px;
+    }
+    .banner-overly .over-content p{
+        font-size: 35px;
+        padding: 35% 0% 23.2%;
+    }
+    footer .bottom-menu ul li a {
+    font-size: 11px;
+    }
+    .content-img .overly-content h2{
+        font-size: 25px;
+    }
+    .overly-content .hide-content p{
+        font-size: 12px;
+    }
+    .developer p {
+    text-align: end;
+    line-height: 30px;
+    font-size: 10px;
+    }
+    .copyright-company p{
+        font-size: 10px;
+        line-height: 30px;
+    }
+}
+@media(max-width:1000px){
+    .top-content h1{
+        font-size: 25px;
+        line-height: 14px;
+    }
+    .top-content p{
+        font-size: 10px;
+        margin: 0px;
+    }
+    .common-area{
+        width: 880px;
+    }
+    .banner {
+    height: 734px;
+    }
+    .banner-overly .over-content p {
+        padding: 37% 0% 25%;
+    }
+    .banner-overly .banner-bottom-content p {
+        font-size: 18px;
+    }
+    .banner-overly .banner-bottom-content p i{
+        margin: 15px;
+    }
+    .overly{
+        height: 20%;
+    }
+    .content-img .overly-content{
+        padding: 15px 40px;
+    }
+    .overly-content .hide-content a{
+        font-size: 15px;
+    }
+    .content-img .overly-content h2 {
+        font-size: 20px;
+    }
+    .project-details h3{
+        font-size: 20px;
+    }
+    .offer .border-for, .recent-projects .border-for{
+        width: 550px;
+    }
+    .offer .offer-info h3 span, .recent-projects .offer-info h3 span{
+        font-size: 25px;
+    }
+    .offer .offer-info p{
+        font-size: 22px;
+    }
+    .project-details p{
+        padding: 15px 15px 0 0;
+        font-size: 12px;
+    }
+    .touch-today{
+        height: 365px;
+    }
+    .touch-today-content .see-all-project, .common-area .see-all-project{
+        margin: 0px 0 50px;
+    }
+    .touch-today-content .see-all-project a, .common-area .see-all-project a{
+        font-size: 16px;
+    }
+    .touch-today-content h1{
+        font-size: 30px;
+    }
+    .touch-today-content p {
+        font-size: 15px;
+        padding-top: 10px;}
+    .copyright-company p{
+        font-size: 9px;
+        line-height: 20px;
+    }
+    .copyright-company p .img-fluid {
+    padding-right: 8px;
+    height: 20px;
+    }
+    footer .bottom-menu ul li a{
+       line-height: 20px;
+    }
+}
+@media(max-width:900px){
+    header .menu ul li a {
+    font-size: 13px;
+    }
+    .banner {
+    height: 651px;
+    }
+    .common-area{
+        width: 745px;
+    }
+    .content-img .overly-content{
+        padding: 15px 20px;
+    }
+    .content-img .overly-content h2 {
+    font-size: 18px;
+    }
+    .overly {
+    height: 23%;
+    }
+    .overly-content .hide-content p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .overly-content .hide-content a {
+    font-size: 13px;
+    }
+    .project-details .only-border{
+        width: 50px;
+    }
+    .project-details h3 {
+    font-size: 15px;
+    }
+    .touch-today {
+    height: 290px;
+    }
+    .touch-today-area {
+    padding-top: 40px;
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    }
+    .copyright-company p .img-fluid{
+        height: 12px;
+    }
+    .copyright-company p {
+        font-size: 8px;}
+    footer .bottom-menu ul li{
+        padding: 0 3px;
+    }
+    footer .bottom-menu ul li a {
+    font-size: 10px;
+    }
+}
+@media(max-width:770px){
+    header .menu ul li a {
+    font-size: 13px;
+    line-height: 14px;
+    }
+    .top-content {
+            margin-right: 4%;
+            position: fixed;
+            top: 21px;
+            right: 0;
+            width: 50%;
+            height: 20%;
+    }
+    .pading {
+    padding: 10px 0;
+    }
+    .banner {
+    height: 725px;
+    }
+    .common-area {
+    width: 610px;
+    }
+    .banner-overly .over-content p {
+        padding: 40% 0% 25%;
+        font-size: 25px;
+    }
+    .offer .border-for, .recent-projects .border-for {
+    width: 350px;
+    }
+    .offer .offer-info h3 span, .recent-projects .offer-info h3 span {
+    font-size: 20px;
+    padding: 0 25px;
+    }
+    .offer .offer-info p {
+    font-size: 15px;
+    }
+    .offer .offer-info p span{
+        font-size: 10px;
+    }
+    .content-img{
+        margin-bottom: 20px;
+    }
+    .overly {
+    height: 13%;
+    }
+    .content-img:hover .overly{
+        height: 35%;
+    }
+    .offer .border-for, .recent-projects .border-for{
+        height: 40px;
+    }
+    .three-div .image-content{
+        text-align: center;
+    }
+    .touch-today-area {
+    padding-top: 30px;
+    margin: auto;
+    width: 470px;
+    text-align: center;
+    }
+    .copyright-company p {
+    font-size: 10px;
+    text-align: center;
+    }
+    .bottom-menu{
+        text-align: center;
+    }
+    footer .bottom-menu ul li a {
+    font-size: 14px;
+    }
+    .developer p {
+    text-align: center;
+    line-height: 28px;
+    font-size: 10px;
+    }
+    footer .bottom-menu ul {
+    margin: 0px;
+    padding: 0px;
+    }
+    
+}
+@media(max-width:650px){
+    .banner {
+    height: 565px;
+    }
+    .common-area {
+    width: 450px;
+    }
+    .banner-overly .over-content p {
+    padding: 40% 0% 25%;
+    font-size: 20px;
+    }
+    .banner-overly .banner-bottom-content p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .overly {
+    height: 18%;
+    }
+    .content-img:hover .overly {
+    height: 53%;
+    }
+    .touch-today-content .see-all-project a, .common-area .see-all-project a {
+    font-size: 10px;
+    }
+    .offer .offer-info p {
+    font-size: 13px;
+    }
+    
+    .offer .offer-info p span {
+    font-size: 8px;
+    }
+    .touch-today {
+    height: 218px;
+    }
+    .touch-today-content h1 {
+    font-size: 20px;
+    }
+    .touch-today-area{
+        width: 360px;
+    }
+    .touch-today-content .only-border{
+        width: 60px;
+        height: 1px;
+    }
+    .touch-today-content p {
+    font-size: 8px;
+    padding-top: 6px;
+    }
+    footer .bottom-menu ul li a {
+    font-size: 10px;
+    }
+    footer .bottom-menu ul {
+    margin: 0px;
+    padding: 0px;
+    }
+    a .chat{
+        font-size: 27px;
+        padding: 5px;
+    }
+}
+@media(max-width:480px){
+    header .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+        padding-right: 5px;
+        padding-left: 2px;
+    }
+    .top-content h1 {
+        font-size: 19px;
+        line-height: 5px;
+    }
+    header .menu ul li a {
+    font-size: 10px;
+    line-height: 14px;
+    }
+    .banner {
+    height: 371px;
+    }
+    .pading {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .common-area {
+    width: 290px;
+    }
+    .banner-overly .over-content p {
+    padding: 40% 0% 25%;
+    font-size: 10px;
+    }
+    .banner-overly .banner-bottom-content p i {
+    margin: 5px;
+    }
+    .offer .offer-info h3 span, .recent-projects .offer-info h3 span {
+    font-size: 15px;
+    padding: 0 10px;
+    }
+    .offer .border-for, .recent-projects .border-for {
+    height: 25px;
+    width: 200px;
+    }
+    .offer .offer-info p {
+    font-size: 8px;
+    }
+    .offer .offer-info p span {
+    font-size: 10px;
+    }
+    .content-img .overly-content h2 {
+    font-size: 15px;
+    }
+    .overly {
+    height: 25%;
+    }
+    .content-img:hover .overly{
+        height: 80%;
+    }
+    .touch-today-area {
+    width: 280px;
+    }
+    .touch-today-content p {
+    font-size: 8px;
+    padding-top: 6px;
+    margin-bottom: 0px;
+    }
+    footer .bottom-menu ul li a {
+    font-size: 9px;
+}
+}
